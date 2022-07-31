@@ -17,8 +17,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .banner-width {
@@ -28,11 +29,11 @@ section {
 }
 
 .banner-width img {
-    width: 100%;
+    width: 90%;
 }
 
 .paragraph {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .btn-me {
@@ -42,4 +43,20 @@ section {
     padding: 10px 40px;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.btn-resume {
+    background-color: rgb(230, 117, 136);
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.second-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
